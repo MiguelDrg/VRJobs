@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class video : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class video : MonoBehaviour
 
         //On lance la scène
         StartCoroutine(Routine(canvasGroupInfoOne, canvasGroupInfoTwo, canvasGroup));
+        Screen.lockCursor = true;
     }
 
     private IEnumerator Routine(CanvasGroup canvasGroupInfoOne, CanvasGroup canvasGroupInfoTwo, CanvasGroup canvasGroup)
@@ -43,6 +45,7 @@ public class video : MonoBehaviour
         StartCoroutine(FadeEffect.FadeCanvas(canvasGroup, 0, 1, 2));
         yield return new WaitForSeconds(2);
         videoPlayer.Pause();
+        Application.LoadLevel("MainScene");
 
     }
 }

@@ -10,6 +10,7 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -57,7 +58,21 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
+New Unity Project/Library/Artifacts
+New Unity Project/Library/Temp
+New Unity Project/Library/TempArtifacts
+New Unity Project/Library/StateCache
+New Unity Project/Library/PackageCache
+New Unity Project/Library/ShaderCache
+New Unity Project/Logs
+New Unity Project/Temp
+New Unity Project/Temp/UnityLockfile
+New Unity Project/Assets/AllSkyFree
+New Unity Project/Assets/AssetStoreOriginals
+New Unity Project/Assets/Oculus
+New Unity Project/Assets/ReZStudios
+New Unity Project/Assets/ToonyTinyPeople
+New Unity Project/Assets/VRTK
 New Unity Project/Temp/UnityLockfile
 New Unity Project/Assets/building.meta
 New Unity Project/Assets/building/info+GIFT.pdf
