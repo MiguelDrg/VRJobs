@@ -24,7 +24,7 @@ public class video : MonoBehaviour
 
         //On lance la scène
         StartCoroutine(Routine(canvasGroupInfoOne, canvasGroupInfoTwo, canvasGroup));
-        Screen.lockCursor = true;
+        //Screen.lockCursor = true;
     }
 
     private IEnumerator Routine(CanvasGroup canvasGroupInfoOne, CanvasGroup canvasGroupInfoTwo, CanvasGroup canvasGroup)

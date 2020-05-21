@@ -2,12 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class playerController1 : MonoBehaviour
 {
-
-
-
     public float movSpeed = 5.0f;
     public float mouseSensitivity = 1.0f;
 
@@ -17,13 +13,13 @@ public class playerController1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Screen.lockCursor = true;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        // Rotations
 
         // X
 
@@ -47,6 +43,6 @@ public class playerController1 : MonoBehaviour
 
         CharacterController cc = GetComponent<CharacterController>();
 
-        cc.SimpleMove(speed);
+        cc.SimpleMove( speed );
     }
 }
